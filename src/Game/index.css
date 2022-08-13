@@ -109,3 +109,44 @@
     width: 600px;
   }
 }
+.Score-card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+  background-size: cover;
+  padding: 30px;
+  text-align: center;
+  width: 400px;
+  margin: auto;
+}
+.trophy-img {
+  height: 120px;
+  width: 150px;
+  margin-top: 70px;
+}
+.score-display {
+  font-family: 'Roboto';
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+}
+.restart-game {
+  border-width: 0px;
+  background-color: #cf60c8;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: auto;
+}
+.btn-box {
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .Score-card {
+    width: 600px;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  }
+  .trophy-img {
+    margin-top: 200px;
+  }
+}
