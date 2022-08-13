@@ -1,0 +1,16 @@
+.img-thumbnail {
+  height: 60px;
+  width: 60px;
+  margin: 1px;
+  border-radius: 2px;
+}
+@media screen and (min-width: 768px) {
+  .img-thumbnail {
+    height: 100px;
+    width: 100px;
+  }
+}
+.thumb-btn {
+  background-color: transparent;
+  border: none;
+}

@@ -1,0 +1,26 @@
+.tab-name {
+  font-family: 'Roboto';
+  color: white;
+  font-weight: 500;
+}
+.tab-item {
+  margin-right: 10px;
+}
+@media screen and (min-width: 768px) {
+  .tab-name {
+    font-size: 20px;
+  }
+  .tab-item {
+    margin-right: 15px;
+  }
+}
+.btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.active {
+  color: #fec653;
+  border-bottom-style: solid;
+  border-bottom-color: #fec653;
+}
